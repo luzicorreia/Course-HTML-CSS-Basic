@@ -1,4 +1,4 @@
-.vermelho{
+/*.vermelho{
     color: crimson;
 }
 
@@ -12,4 +12,33 @@
     color: purple;
 }
 
+p.sucess{
+    color: green;
+}
 
+p.sucess.feedback{
+    border: 1px dashed black;
+}
+
+#content{
+    background-color: #694e4e;
+    padding: 20px;
+}*/
+
+/*a[href="https://www.youtube.com/?hl=pt&gl=BR"]{*/
+
+    a[href*="youtube"]{
+        background-color: yellow;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    a[href*="google"]{
+        background-color: brown;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+        

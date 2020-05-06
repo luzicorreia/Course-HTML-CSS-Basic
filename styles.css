@@ -26,7 +26,7 @@ p.sucess.feedback{
 }*/
 
 /*a[href="https://www.youtube.com/?hl=pt&gl=BR"]{*/
-
+/*
     a[href*="youtube"]{
         background-color: yellow;
         color: white;
@@ -42,3 +42,33 @@ p.sucess.feedback{
         text-transform: uppercase;
     }
         
+    a[href$=".com"]{
+        color: white;
+        background: red;
+        border: 2px solid blue;
+    }*/
+    
+    div{
+        color: lightblue;
+        border: 1px solid grey;
+        margin: 40px;
+        font-weight: bold;
+    }
+    
+    div p{
+        border: inherit;
+        margin: inherit;
+        color: lightcoral;
+    }
+    
+    p{
+        border: inherit;
+        margin: inherit;
+        color: orange;
+    }
+
+    .sucess {
+        color: pink;
+    } 
+    
+    

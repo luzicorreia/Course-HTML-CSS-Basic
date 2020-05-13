@@ -1,5 +1,20 @@
 header{
+background-color: #ff4500;
+padding: 20px;
+text-align: center;
+position: fixed;
+width: 100%;
+z-index: 1;
+top: 0;
+left: 0;
+}
 
+header h1{
+    color: white;
+    border: 8px white solid;
+    padding: 12px;
+    display: inline-block;
+    border-radius: 36px;
 }
 .banner{
     position: relative;
@@ -16,8 +31,38 @@ left: 0;
 top: 30%;
 }
 .banner h2{
-    font-size: 74px;
+    font-size: 74px
 }
 .banner h2 span{
     font-size: 1.3em;
 }
+
+nav{
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
